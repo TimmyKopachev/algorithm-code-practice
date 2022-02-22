@@ -12,6 +12,19 @@ import lombok.Data;
 
 public class GroupingTradeProcessor {
 
+  static class ApplicationRunner {
+
+    public static void main(String[] args) {
+      System.out.println("------------ Stream -> GroupingBy()");
+      var tradeReports = List.of(new TradeReport("trade-id-1", List.of()),
+          new TradeReport("trade-id-2", List.of(111, 1222)),
+          new TradeReport("trade-id-3", List.of(112, 1204)),
+          new TradeReport("trade-id-4", List.of(604)));
+
+      System.out.println(new GroupingTradeProcessor().processTradeReports(tradeReports));
+    }
+  }
+
   TradeGroupingByStatus tradeGroupingByStatus = new TradeGroupingByStatus();
 
   public Map<TradeStatus, List<String>> processTradeReports(List<TradeReport> tradeReports) {
