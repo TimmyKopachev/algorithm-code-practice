@@ -15,8 +15,6 @@ public class Player {
   private int points;
   private String nickname;
 
-
-
   public static Player generatePlayer(int id) {
     final String lexicon = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     final java.util.Random random = new java.util.Random();
