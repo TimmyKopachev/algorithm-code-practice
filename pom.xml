@@ -19,6 +19,7 @@
         <module>java8-stream</module>
         <module>dynamic-programming</module>
         <module>graph-path</module>
+        <module>sorting</module>
     </modules>
 
     <developers>
