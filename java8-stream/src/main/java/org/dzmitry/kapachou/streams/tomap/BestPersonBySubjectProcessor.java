@@ -25,9 +25,7 @@ public class BestPersonBySubjectProcessor {
             subject -> subject,
             subject -> people.stream()
                 .max(Comparator.comparingDouble(p -> p.getSubjects().get(subject)))
-                .stream()
-                .findFirst()
-                .orElseThrow()
+                .get()
         ));
 
     result.forEach((key, value) -> System.out.printf("%s : [%s - %s]%n", key.name().toLowerCase(),
