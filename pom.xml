@@ -20,6 +20,9 @@
         <module>dynamic-programming</module>
         <module>graph-path</module>
         <module>sorting</module>
+        <module>two-pointers</module>
+        <module>sliding-window</module>
+        <module>binary-searching</module>
     </modules>
 
     <developers>

@@ -1,4 +1,4 @@
-package org.dzmitry.kapachou.dynamic.trade;
+package org.dzmitry.kapachou.dynamic.trade.backpack;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

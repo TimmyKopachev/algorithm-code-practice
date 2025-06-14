@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
 import java.util.stream.Stream;
-import org.dzmitry.kapachou.dynamic.trade.Trade;
-import org.dzmitry.kapachou.dynamic.trade.TradeOptimalTradeProcessor;
+import org.dzmitry.kapachou.dynamic.trade.backpack.Trade;
+import org.dzmitry.kapachou.dynamic.trade.backpack.TradeOptimalTradeProcessor;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

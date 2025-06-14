@@ -1,10 +1,9 @@
-package org.dzmitry.kapachou.dynamic.trade;
+package org.dzmitry.kapachou.dynamic.trade.backpack;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class TradeOptimalTradeProcessor {
 
